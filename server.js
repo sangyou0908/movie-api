@@ -13,7 +13,7 @@ app.use("/api/auth", authRouter);
 app.use("/api/movies", moviesRouter);
 
 app.get("/", (req, res) => {
-  res.json({ message: "영화 API 배포를 완료했습니다." });
+  res.json({ message: "test" });
 });
 
 app.use((req, res) => {
